@@ -1083,33 +1083,33 @@ header .container nav .main-ul .mega-ul .links li a{
   /*___________________ Start Section-OUR SKILLS ____________________*/
 
 
-  /*___________________ Start Section-How It Work ____________________*/
-  .how-it-work{
+  /*___________________ Start Section-How It Works ____________________*/
+  .how-it-works{
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     background-color: var(--section-background);
     position: relative;
   }
-  .how-it-work .container .work{
+  .how-it-works .container .work{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
   }
   @media (max-width:991px){
-    .how-it-work .container .work{
+    .how-it-works .container .work{
       flex-direction: column;
       gap: 20px;
     }
   }
-  .how-it-work .container .work img{
+  .how-it-works .container .work img{
     max-width: 100%;
   }
-  .how-it-work .container .work .box{
+  .how-it-works .container .work .box{
     display: flex;
     flex-direction: column;
   }
-  .how-it-work .container .work .box .content-box{
+  .how-it-works .container .work .box .content-box{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1123,13 +1123,13 @@ header .container nav .main-ul .mega-ul .links li a{
     z-index: 1;
   }
   @media (max-width:1199px){
-    .how-it-work .container .work .box .content-box{
+    .how-it-works .container .work .box .content-box{
       padding: 10px;
       gap: 20px;
     }
   }
   @media (max-width:767px){
-    .how-it-work .container .work .box .content-box{
+    .how-it-works .container .work .box .content-box{
       flex-direction: column;
       text-align: center;
       gap: 15px;
@@ -1137,7 +1137,7 @@ header .container nav .main-ul .mega-ul .links li a{
       flex: 1;
     }
   }
-  .how-it-work .container .work .box .content-box::before{
+  .how-it-works .container .work .box .content-box::before{
     content: "";
     position:absolute;
     left: 50%;
@@ -1149,33 +1149,33 @@ header .container nav .main-ul .mega-ul .links li a{
     transition: var(--main-transition);
     z-index: -1;
   }
-  .how-it-work .container .work .box .content-box:hover::before{
+  .how-it-works .container .work .box .content-box:hover::before{
     width: 100%;
     height: 100%;
   }
-  .how-it-work .container .work .box .content-box img{
+  .how-it-works .container .work .box .content-box img{
     max-width: 100%;
     width: 100px;
   }
-  .how-it-work .container .work .box .content-box .content{
+  .how-it-works .container .work .box .content-box .content{
     position: relative;
   }
-  .how-it-work .container .work .box .content-box .content h3{
+  .how-it-works .container .work .box .content-box .content h3{
     padding: 0 15px;
     font-size: 25px;
   }
-  .how-it-work .container .work .box .content-box .content p{
+  .how-it-works .container .work .box .content-box .content p{
     padding: 10px 0 0;
     line-height: 1.6;
     font-size: 18px;
     color: #777;
   }
   @media (max-width:1199px){
-    .how-it-work .container .work .box .content-box .content p{
+    .how-it-works .container .work .box .content-box .content p{
       font-size: 14px;
     }
   }
-/*___________________ End Section-How It Work ____________________*/
+/*___________________ End Section-How It Works ____________________*/
 
 
 /*___________________ Start Section-Latest Events ____________________*/
